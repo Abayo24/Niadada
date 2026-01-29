@@ -426,6 +426,7 @@ const Footer = ({ onLinkClick }) => (
 
       <div className="border-t border-[#8098bd]/10 pt-8 text-center text-[#8098bd]/60 text-sm font-medium">
         <p>&copy; {new Date().getFullYear()} Nia Dada Foundation. All rights reserved.</p>
+        <p>Made with ❤️ by Xtreme Tech</p>
       </div>
     </div>
   </footer>
