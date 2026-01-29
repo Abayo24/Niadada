@@ -425,8 +425,8 @@ const Footer = ({ onLinkClick }) => (
       </div>
 
       <div className="border-t border-[#8098bd]/10 pt-8 text-center text-[#8098bd]/60 text-sm font-medium">
-        <p>&copy; {new Date().getFullYear()} Nia Dada Foundation. All rights reserved.</p>
-        <p>Made with ❤️ by Xtreme Tech</p>
+        <p>&copy; {new Date().getFullYear()} Nia Dada Foundation.</p>
+        <p>Designed with ❤️ by <a href='https://www.linkedin.com/in/abayoakinyi' target='_blank' rel='noopener noreferrer' className='text-[#28bbc3]'>Abayo</a> </p>
       </div>
     </div>
   </footer>
