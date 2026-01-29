@@ -395,7 +395,7 @@ const Footer = ({ onLinkClick }) => (
         <div>
           <h4 className="text-lg font-black mb-6 text-[#28bbc3] uppercase tracking-wider">Navigation</h4>
           <ul className="space-y-4">
-            {['About Us', 'Our Pillars', 'Roadmap', 'Partner With Us'].map((item) => (
+            {['About', 'Pillars', 'Roadmap', 'Partner With Us'].map((item) => (
               <li key={item}>
                 <button
                   onClick={() => onLinkClick(item.toLowerCase().includes('partner') ? 'partner' : `#${item.toLowerCase().replace(' ', '')}`)}
