@@ -1,0 +1,14 @@
+services:
+  nia-dada-web:
+    container_name: nia-dada-web
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    # If you add a real database later, you would link it here
+    # depends_on:
+    #   - mongo
