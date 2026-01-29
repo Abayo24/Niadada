@@ -15,7 +15,7 @@ export const metadata = {
   title: "Nia Dada",
   description: "Empowering girls and women through basketball in Kenya",
   icons: {
-    icon: "/logo.png",
+    icon: "/logopic.png",
   },
 };
 

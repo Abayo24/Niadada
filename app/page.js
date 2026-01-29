@@ -6,7 +6,7 @@ import {
   Menu, X, Heart, Users, Trophy, GraduationCap,
   Target, Calendar, Mail, Instagram, CheckCircle,
   ArrowRight, UserPlus, Handshake, Play, MapPin,
-  Youtube, Linkedin, ChevronRight
+  Youtube, Linkedin, Twitter, ChevronRight
 } from 'lucide-react';
 
 // ==========================================
@@ -110,13 +110,13 @@ const Navigation = ({ scrolled, onOpenMenu, onJoinClick }) => (
       <div className="flex items-center gap-3">
         {/* LOGO UPDATE: Replaced "ND" box with the image */}
         <Image
-          src="/logo.png"
+          src="/logopic.png"
           alt="Nia Dada Logo"
-          width={64}
-          height={64}
+          width={48}
+          height={48}
           className="w-auto object-contain hover:scale-105 transition-transform duration-300"
         />
-        <span className="text-2xl font-black tracking-tighter text-white italic hidden sm:block">NIA DADA</span>
+        <span className="text-2xl font-black tracking-tighter text-white">Nia Dada</span>
       </div>
 
       <div className="hidden md:flex items-center gap-8">
@@ -364,21 +364,21 @@ const Impact = ({ onDonate }) => (
 );
 
 const Footer = ({ onLinkClick }) => (
-  <footer id="contact" className="bg-[#1e2b4f] text-white pt-24 pb-12 border-t border-[#28bbc3]/20 relative">
+  <footer id="contact" className="bg-[#1e2b4f] text-white pt-24 pb-12 px-12 border-t border-[#28bbc3]/20 relative">
     <div className="container mx-auto px-6 relative z-10">
       <div className="grid md:grid-cols-3 gap-12 mb-16">
         <div>
           <div className="flex items-center gap-3 mb-6">
             {/* LOGO UPDATE: Replaced "ND" box with the image */}
             <Image
-              src="/logo.png"
+              src="/logopic.png"
               alt="Nia Dada Logo"
-              width={80}
-              height={80}
+              width={64}
+              height={64}
               className="w-auto object-contain"
             />
             {/* Kept text hidden on smaller screens if needed, or displayed for clarity */}
-            <span className="text-2xl font-black italic">NIA DADA</span>
+            <span className="text-2xl font-black tracking-tighter text-[#da8f7f]">Nia Dada</span>
           </div>
           <p className="text-[#8098bd] mb-8 leading-relaxed font-medium">
             Empowering girls and women through basketball in Kenya. Creating the next generation of champions on and off the court.
@@ -414,7 +414,7 @@ const Footer = ({ onLinkClick }) => (
           <ul className="space-y-4 text-[#8098bd]">
             <li className="flex items-center gap-3 font-medium"><Mail size={18} className="text-[#28bbc3]" /> niadadakenya@gmail.com</li>
             <li className="flex items-center gap-3 font-medium"><Instagram size={18} className="text-[#28bbc3]" /> @Niadada_kenya</li>
-            <li className="flex items-center gap-3 font-medium"><Instagram size={18} className="text-[#28bbc3]" /> @Hoops123</li>
+            <li className="flex items-center gap-3 font-medium"><Twitter size={18} className="text-[#28bbc3]" /> @Hoops123</li>
           </ul>
           <div className="mt-8 flex flex-wrap gap-2">
             {['#niadada', '#playwithpurpose', '#empowerher'].map(hash => (
